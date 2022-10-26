@@ -17,7 +17,6 @@ body {
 
 input,
 button {
-    appearance: none;
     border: none;
     outline: none;
     background: none;
@@ -30,13 +29,13 @@ header {
     justify-content: space-between;
     background-color: var(--dark-blue);
     color: white;
-    padding: 1rem 4rem;
-    font-size: 0.7rem;
+    padding: 1rem 12rem;
+    font-size: 0.5rem;
 }
 
 header input,
 header button {
-    padding: 0.5rem 1rem;
+    padding: 0.25rem 0.5rem;
     border-radius: 3px;
     background-color: white;
     margin: 0.1rem;
@@ -57,6 +56,7 @@ main {
 #left {
     float: left;
     width: 50%;
+    padding-right: 0.5rem;
 }
 
 img {
@@ -67,30 +67,75 @@ img {
 
 #left p {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 #right {
     float: left;
     width: 50%;
+    padding-left: 0.5rem;
 }
-#nameinput{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width:100%;
-    gap: 1rem;
+
+h2 {
+    margin-bottom: 0.5rem;
 }
-#fn,#ln,#pwd,#mobemail{
-        padding: 0.5rem 1.25rem;
-        border-radius: 3px;
-        background-color: white;
-        margin: 0.1rem;
+
+#fn {
+    width: 48%;
+    float: left;
 }
-#pwd,#mobemail{
+
+#ln {
+    width: 48%;
+    float: right;
+}
+
+#pwd,
+#mobemail {
+    width: 100%;
+}
+
+#fn,
+#ln,
+#pwd,
+#mobemail {
+    padding: 0.5rem 1.25rem;
+    border-radius: 3px;
+    background-color: white;
+    margin: 0.5rem 0.1rem;
+}
+
+#birthday,
+#birthday-input,
+#gender-input,
+#terms {
+    margin: 0.5rem 0;
+}
+
+#birthday-input select {
+    padding: 0.25rem 0.75rem;
+}
+
+#gender-input {
+    padding-top: 0.5rem;
+}
+
+#gender-input label {
+    font-weight: bold;
+}
+
+#terms {
+    color: var(--grey);
+    font-size: 0.7rem;
+    line-height: 125%;
     padding: 0.5rem 0;
-    display: block;
-    width:100%;
 }
 
-
+#sign-up {
+    background: linear-gradient(#6db15a, var(--green));
+    background-color: var(--green);
+    color: white;
+    padding: 0.5rem 2.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}

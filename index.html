@@ -1,64 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facebook Clone</title>
     <link rel="stylesheet" href="styles.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <h1>DFA Learn HTML/CSS</h1>
-      <form>
-        <input type="email" placeholder="Enter email..." />
-        <input type="password" placeholder="Enter password..." />
-        <button type="submit">Login</button>
-      </form>
+        <h1>DFA Learn HTML/CSS</h1>
+        <form>
+            <input type="email" placeholder="Enter email..." />
+            <input type="password" placeholder="Enter password..." />
+            <button type="submit">Login</button>
+        </form>
     </header>
     <main>
-      <section id="left">
-        <p>
-          Facebook helps you to connect and share with the people in your life
-        </p>
-        <img src="img/peopleNetwork.png" alt="people network" />
-      </section>
-      <section id="right">
-        <h2>Create an account</h2>
-        <p>It's free and always will be</p>
-        <form>
-          <div id="nameinput">
-            <input type="text" placeholder="First Name" id="fn" />
-            <input type="text" placeholder="Last Name" id="ln" />
-          </div>
-          <input
-            type="text"
-            placeholder="Mobile Number or Email"
-            id="mobemail"
-          />
-          <input type="password" placeholder="New Password" id="pwd" />
-          <select type="date">
-            <option>1</option>
-          </select>
-          <select type="month">
-            <option>Jan</option>
-          </select>
-          <select type="year">
-            <option>2004</option>
-          </select>
-          <input type="radio" id="Female" name="gender" />
-          <label for="Female">Female</label>
-          <input type="radio" id="Male" name="gender" />
-          <label for="Male">Male</label>
-          <p>
-            By clicking Sign Up, you agree to our Terms, Data Policy and Cookie
-            Policy. You may receive SMS notifications from us and can opt out at
-            any time.
-          </p>
-          <button type="submit">Sign Up</button>
-        </form>
-      </section>
+        <section id="left">
+            <p>
+                Facebook helps you to connect and share with the people in your life
+            </p>
+            <img src="img/peopleNetwork.png" alt="people network" />
+        </section>
+        <section id="right">
+            <h2>Create an account</h2>
+            <p>It's free and always will be</p>
+            <form>
+                <div id="nameinput">
+                    <input type="text" placeholder="First Name" id="fn" />
+                    <input type="text" placeholder="Last Name" id="ln" />
+                </div>
+                <input type="text" placeholder="Mobile Number or Email" id="mobemail" />
+                <input type="password" placeholder="New Password" id="pwd" />
+                <p id="birthday">Birthday</p>
+                <div id="birthday-input">
+                    <select type="date">
+                        <option>1</option>
+                    </select>
+                    <select type="month">
+                        <option>Jan</option>
+                    </select>
+                    <select type="year">
+                        <option>2004</option>
+                    </select>
+                </div>
+                <div id="gender-input">
+                    <input type="radio" id="Female" name="gender" />
+                    <label for="Female">Female</label>
+                    <input type="radio" id="Male" name="gender" />
+                    <label for="Male">Male</label>
+                </div>
+                <p id="terms">
+                    By clicking Sign Up, you agree to our Terms, Data Policy and Cookie
+                    Policy. You may receive SMS notifications from us and can opt out at
+                    any time.
+                </p>
+                <button type="submit" id="sign-up">Sign Up</button>
+            </form>
+        </section>
     </main>
-  </body>
+</body>
+
 </html>
