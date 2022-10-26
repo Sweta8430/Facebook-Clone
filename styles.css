@@ -49,3 +49,28 @@ input {
 button {
     color: black;
 }
+
+main {
+    padding: 3rem 12rem
+}
+
+#left {
+    float: left;
+    width: 50%;
+}
+
+#right {
+    float: left;
+    width: 50%;
+}
+
+img {
+    padding-top: 1.5rem;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-weight: bold;
+    font-size: 2rem;
+}
