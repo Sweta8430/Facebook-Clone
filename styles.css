@@ -34,19 +34,19 @@ header {
     font-size: 0.7rem;
 }
 
-input,
-button {
+header input,
+header button {
     padding: 0.5rem 1rem;
     border-radius: 3px;
     background-color: white;
     margin: 0.1rem;
 }
 
-input {
+header input {
     color: var(--grey);
 }
 
-button {
+header button {
     color: black;
 }
 
@@ -59,18 +59,38 @@ main {
     width: 50%;
 }
 
-#right {
-    float: left;
-    width: 50%;
-}
-
 img {
     padding-top: 1.5rem;
     width: 100%;
     height: auto;
 }
 
-p {
+#left p {
     font-weight: bold;
     font-size: 2rem;
 }
+
+#right {
+    float: left;
+    width: 50%;
+}
+#nameinput{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    gap: 1rem;
+}
+#fn,#ln,#pwd,#mobemail{
+        padding: 0.5rem 1.25rem;
+        border-radius: 3px;
+        background-color: white;
+        margin: 0.1rem;
+}
+#pwd,#mobemail{
+    padding: 0.5rem 0;
+    display: block;
+    width:100%;
+}
+
+
